@@ -6,10 +6,9 @@ import NotFound from "./containers/NotFound";
 
 function App() {
   return <BrowserRouter>
-  <div className="App">
-
-      <Header/>
-    <Switch>
+   <div className="App">
+     <Header/>
+     <Switch>
       <Route path="/" exact component={ProductList}/>
       <Route path="/product/:productId" exact component={ProductDetail}/>
       <Route path="" component={NotFound}/>
