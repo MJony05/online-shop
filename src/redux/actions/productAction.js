@@ -17,3 +17,9 @@ export const removeSelectedProduct = () => {
     type:ActionType.REMOVE_SELECTED_PRODUCT
   }
 }
+export const addCard = (val) => {
+  return {
+    type: ActionType.ADD_CARD,
+    payload:val
+  }
+}

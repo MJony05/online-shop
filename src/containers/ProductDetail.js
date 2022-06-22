@@ -7,6 +7,7 @@ const ProductDetail = () => {
   const {productId} = useParams()
   const dispatch = useDispatch()
   const product = useSelector(state=>state.product)
+
   const {image,title,price,category, description} = product
   const fetchProductDetail = async ()=> {
 

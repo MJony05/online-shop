@@ -3,7 +3,7 @@ import Header from "./containers/Header";
 import ProductList from "./containers/ProductList";
 import ProductDetail from "./containers/ProductDetail";
 import NotFound from "./containers/NotFound";
-
+import './App.css'
 function App() {
   return <BrowserRouter>
    <div className="App">
